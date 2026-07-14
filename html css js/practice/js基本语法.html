@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js基本语法</title>
+</head>
+<body>
+    <script>
+        var x;
+        let y=5;   //定义变量
+        const PI=3.14    //定义常量
+        console.log(x,y,PI);   //打印
+        let name="艾玛";   //定义字符串
+        console.log(name);
+        let empty_value=null;   //定义空值
+        console.log(empty_value);
+        alert('这是一个弹窗');   //弹窗
+        
+        function hello(){   //定义不返回值的函数
+            console.log('HelloWorld');
+        }
+        hello();
+        function hello_with_return(){   //定义返回值的函数
+            return 'HelloWorld-返回值'
+        }
+        let a=hello_with_return();
+        console.log(a);
+        function hello_with_params(name){   //定义传参的函数
+            console.log('hello, '+name);
+        }
+        hello_with_params('艾玛');
+    </script>
+</body>
+</html>

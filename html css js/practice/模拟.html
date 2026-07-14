@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 文本 -->
+     <p>这是一个文本标签</p>
+    <!-- 图片 -->
+     <img src="sheri.jpg" width="100px" alt="">
+    <!-- 超链接 -->
+     <a href="https://bilibili.com" target="_blank">这是一个超链接</a>
+    <!-- 表格 -->
+     <table border="1">
+        <tr>
+            <th></th>
+            <th>列1</th>
+            <th>列2</th>
+        </tr>
+        <tr>
+            <th>行1</th>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <th>行2</th>
+            <td>21</td>
+            <td>22</td>
+        </tr>
+     </table>
+    <!-- 表单 -->
+     <form action="">
+        <label for="">用户名：</label>
+        <input type="text" placeholder="请输入用户名"><br><br>
+        <label for="">密码：</label>
+        <input type="password" placeholder="请输入密码"><br><br>
+        <label for="">性别：</label>
+        <input type="radio">男<input type="radio">女<input type="radio">其他<br><br>
+        <label for="">爱好：</label>
+        <input type="checkbox">唱<input type="checkbox">跳<input type="checkbox">rap<input type="checkbox">篮球
+        <br><br><input type="submit" value="上传"><br><br>
+     </form>
+    <!-- js事件 -->
+     <button onclick="a()">点击</button>
+     <script>
+        function a(){
+            alert('点击事件触发');
+        }
+     </script>
+</body>
+</html>

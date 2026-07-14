@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGO!!!!!音乐库</title>
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href=" " class="logo">Bang Dream!</a >
+                <ul class="nav-links">
+                    <li><a href="#home">首页</a ></li>
+                    <li><a href="#songs">歌曲</a ></li>
+                    <li><a href="#about">介绍</a ></li>
+                </ul>
+                <div class="search-box">
+                    <input type="text" placeholder="搜索歌名或读法...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主内容区域 -->
+    <main class="container">
+        <section id="home" class="start-section">
+            <div class="start-content">
+                <h1 style="color: white;">It's MyGO!!!!!</h1>
+                <p>MyGO!!!!!是《BanG Dream!》及其衍生作品的登场乐队，以及企划下第五支真实女子乐队。乐队代表色为#3388BB。</p >
+                <a href="#songs" class="btn-primary">浏览歌曲</a >
+            </div>
+            <div class="start-image">
+                <img src="https://storage.moegirl.org.cn/moegirl/commons/e/ea/MyGO%21%21%21%21%21_10th_anniversary_kv_banner_v2.webp?download" alt="MyGO!!!!!成员图">
+            </div>
+        </section>
+
+        <section id="songs" class="songs-section">
+            <p class="section-subtitle">点击任意封面跳转MV</p >
+            
+            <div class="filter-controls">
+                <button class="filter-btn active" data-filter="all">全部</button>
+                <button class="filter-btn" data-filter="迷跡波">迷跡波</button>
+                <button class="filter-btn" data-filter="跡暖空">跡暖空</button>
+                <button class="filter-btn" data-filter="单曲">单曲</button>
+            </div>
+            
+            <div id="songs-container" class="songs-grid">
+                <!-- 歌曲卡片 -->
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2 class="section-title">关于MyGO!!!!!</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>简介</h3>
+                    <p>
+                        乐队名称「MyGO!!!!!」的读法与日文“迷子”（まいご/maigo，意为迷路/迷路的孩子）的发音相同；MyGO!!!!!系列构成绫奈由仁子也提到TV动画标题「It's MyGO!!!!!」也有“到我出场了”的意思。「MyGO!!!!!」后面的5个感叹号代表着5位乐队成员。和此前乐队不同的是，MyGO!!!!!是首支（非主唱）双吉他配置的乐队组合。早期的标语是「迷子でもいい、前へ進め。」（不畏迷茫，砥砺前行。）（实际上现在也并未完全被弃用），在4th LIVE后变成现在的标语「迷子でもいい、迷子でも進め。」（不畏迷茫，迷茫着也要砥砺前行。）。和Poppin'Party类似，MyGO!!!!!各成员名字的首字母也可以组成START；而MyGO!!!!!各成员的姓氏则来自东京都丰岛区地名。MyGO!!!!!的图标为北极星/罗盘的形象，寓意着迷路的成员们会在乐队中找到方向。
+                    </p >
+                    
+                    <h3>成员</h3>
+                    <ul>
+                        <li>主唱：高松灯 （cv：羊宫妃那）</li>
+                        <li>节奏吉他手：千早爱音（cv：立石凛）</li>
+                        <li>主音吉他手：要乐奈（cv：青木阳菜）</li>
+                        <li>贝斯手：长崎素世（cv：小日向美香）</li>
+                        <li>鼓手：椎名立希（cv：林鼓子）</li>
+                    </ul>
+                </div>
+                <div class="about-image">
+                    <img src="https://storage.moegirl.org.cn/moegirl/commons/a/aa/BanG_Dream%21_It%27s_MyGO%21%21%21%21%21TokyoStreeMapv2.png" alt="姓氏来源地名">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 回到顶部按钮 -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JS文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
